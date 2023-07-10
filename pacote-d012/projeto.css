@@ -39,7 +39,7 @@ a:hover {
 
 header h1{
     font-family: var(--fonte-destaque);
-    font-size: 4em;
+    font-size: 10vw;
     font-variant: small-caps;
     font-weight: normal;
 
@@ -54,7 +54,7 @@ div{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    font-size: 25px;
+    font-size: 4vw;
     line-height: 2em;
 
 }
@@ -66,17 +66,31 @@ div.normal{
 
 div.imagem{
     color: white;
-    background-color: darkgrey;
 
+    /*Criacao do efeito paralaxe*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.458);
+    
 }
+
+div#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+div#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center;
+}
+
 
 div.imagem p{
-    background-color: rgba(0, 0, 0, 0.2);
-    
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block; /*se adapta ao tamanho do texto*/
     padding: 10px;
+    text-shadow: 1.5px 1.5px 0px black;
 }
-
 
 footer{
     font-family: var(--fonte-padrao);
