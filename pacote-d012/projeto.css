@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+
 :root{
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Passion One', cursive;
@@ -12,33 +13,70 @@
     padding: 0;
 }
 
+html, body{
+    min-height: 100%;
+    background-color: darkgray;
+}
+
 header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 header h1{
     font-family: var(--fonte-destaque);
     font-size: 4em;
+    font-variant: small-caps;
     font-weight: normal;
 
 }
 header p{
     font-family: var(--fonte-padrao);
 }
-header a{
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
+
 
 div{
     font-family: var(--fonte-texto);
-    padding: 50px 0px 50px 10px;
-    font-size: 18px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 25px;
+    line-height: 2em;
+
 }
+
+div.normal{
+    background-color: white;
+    color: black;
+}
+
+div.imagem{
+    color: white;
+    background-color: darkgrey;
+
+}
+
+div.imagem p{
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    width: 300px;
+    padding: 10px;
+}
+
 
 footer{
     font-family: var(--fonte-padrao);
