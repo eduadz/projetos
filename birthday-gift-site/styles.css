@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&family=Passion+One&family=Sriracha&display=swap');
+
+
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffff;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-age{
+    background: #EFB0C9;
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin: 10px 0px;
+
+}
+#bday-date{
+    margin: 0;
+    background: #EFB0C9;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+#nick{
+    width: 150px;
+    border: 6px solid #EFB0C9;
+    border-radius: 50%;
+}
