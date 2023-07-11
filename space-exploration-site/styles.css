@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Passion+One&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hero{
+    padding: 10px 0 40px 0;
+    background-image: url(images/galaxy.webp);
+    background-size: cover;
+}
+
+#title{
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.412);
+}
+
+#logo{
+    width: 100px;
+}
+
+.underline{
+    border-bottom: 4px solid white;
+}
+
+.btn{
+    background: white;
+    border: none;
+    font-family: inherit;
+    color: #82a5ca;
+    font-weight: bolder;
+    padding: 6px 12px;
+    margin: 20px 10px;
+}
+
+
