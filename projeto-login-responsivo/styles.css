@@ -24,7 +24,7 @@ body{
 section#login{
     display: block;
     background: white;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden; /*O que estiver fora da borda ficará escondido*/
@@ -49,6 +49,49 @@ div#formulario{
     margin-bottom: 10px;
 }
 
+div#campo{
+    padding: 10px;
+}
+
+
 div#formulario p{
     font-size: 0.8em;
+    padding: 10px;
+}
+
+input{
+    background-color: #88f1ed;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+}
+i.material-icons{
+    transform: translateY(5px);
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #49a09d;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color: #51b7b4;
+    cursor: pointer;
+}
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+}
+a.botao i{
+    font-size: 0.8em;
+    margin-top: 10px;
 }
